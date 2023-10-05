@@ -1,0 +1,36 @@
+// ADJUST SCROLLBAR BASED ON YOUR NEEDS
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   /* background-color: #7e8681; */
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background: #008b51;
+//   border-radius: 4px;
+// }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  & li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
